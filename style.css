@@ -1,0 +1,165 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+    opacity: 0.5;
+    
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+    position: relative;
+    left: 15px;
+    opasity: 0.5;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+.sos{
+position: fixed;
+right: 0;
+bottom: 0;
+background-color: blueviolet;
+font-size: 10px;
+border-radius: 3px;
+}
+.cart{
+position: relative;
+}
+.new{
+position: absolute;
+width: 150px;
+top:4px;
+right: 8px;
+}
+.pro{
+
+}
+.pro::after{
+content: url("");
+width: 30px;
+height: 30px;
+display: inline-block;
+}
+.pro::before{
+content: url;
+width: 30px;
+height: 30px;
+display: inline-blok;
+}
+.article-but:hover{
+opacity: 1;
+}
+
+
+.social:hover{
+opasity: 1;
+}
+.address{
+opacity: 0.5;
+}
+.address:hover{
+opacity: 1;
+}
+.tel{
+opacity: 0.5;
+}
+.tel:hover{     
+opacity: 1; 
+}
+.nav-link{
+opacity: 0.5;
+color: blue;
+}
+.nav-link:hover{
+opacity: 1;
+}
